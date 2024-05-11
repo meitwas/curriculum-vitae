@@ -1,0 +1,144 @@
+BasicInfo:
+  FirstName: Stanislav
+  LastName: Savosiuk
+  Photo: img/avatar.png
+  Contacts:
+    - Icon: fas fa-phone
+      Info: Ask in addition
+    - Icon: fas fa-envelope
+      Info: savosyuk@gmail.com
+    - Icon: fas fa-map-marker-alt
+      Info: Poland
+    - Icon: fa-brands fa-github
+      Info: <a class="contact__link" href="https://github.com/meitwas" target="_blank">github.com/meitwas</a>
+    - Icon: fa-brands fa-linkedin
+      Info: <a class="contact__link" href="https://www.linkedin.com/in/stanislav-savosiuk-22001052/" target="_blank">Stanislav S</a>
+
+Profile: With over 15 years of experience as a seasoned software engineer and solution architect, I specialize in leading engineering teams and spearheading the creation of distributed projects from scratch. Throughout my career, I've demonstrated proficiency in designing and implementing cloud-based applications while meticulously crafting architectural blueprints. My track record speaks volumes, showcasing a consistent ability to deliver innovative solutions promptly, ultimately surpassing client and stakeholder expectations. Renowned for my robust analytical prowess and knack for problem-solving, I possess a sharp eye for detail, enabling me to swiftly identify and address challenges. Moreover, my adept communication and interpersonal skills have proven invaluable in fostering collaboration across cross-functional teams, facilitating the attainment of project objectives.
+
+Education:
+  - Course: MSc in Computer Science
+    Place: Dnipro National University Of Railway Transport. Ukraine
+    Date: 2005 - 2010
+    Details: Technical Cybernetics
+
+References:
+  - Name: Fabien Ribourg
+    Relation: Global Analytics & Services Oriented Solution Design Leader
+    Contacts:
+      - Icon: fa-brands fa-linkedin
+        Info: <a class="contact__link" href="https://fr.linkedin.com/in/fabien-ribourg-72802925" target="_blank">Fabien Ribourg</a>
+      - Icon: fa-solid fa-pen-nib
+        Info: <a class="contact__link" href="https://docs.google.com/document/d/0B-U70qzuu0--QXZld1FFVWpWVDA/edit" target="_blank">Recommendation letter</a>
+
+Experience:
+  - Employer: Xenoss
+    Place: Remote
+    Positions:
+      - Title: Lead software engineer
+        Date: 2021 - Present
+        Details:
+          - We build an innovative advertising solution for retail stores. The solution moves the long-existing promotion technique of the product discounts into online advertising. The product buyers will be seeing the active product discounts that are available in store they usually shop at right on the internet advertising placements replacing the paper flyers in their mailboxes. The system will provide the platform for advertisers to configure promotion campaigns, optimize them to bring more buyers to stores, and provide analytics of the campaign performance.
+          - Developed a proprietary algorithm for data modeling and forecasting, resulting in accurate predictions and better business decisions.
+          - Integrated an automated data model testing mechanism, reducing manual effort and increasing testing efficiency.
+          - Persuaded business stakeholders to switch to a more advanced prediction algorithm model, resulting in increased accuracy and better outcomes.
+          - Designed software architecture to ensure scalability, maintainability, and performance.
+          - Troubleshot complex issues to identify root causes and implement effective solutions.
+          - Performed performance tuning to optimize software application performance.
+          - Collaborated with cross-functional teams to ensure software design alignment with business needs.
+          - Implemented best practices for software development lifecycle to ensure high-quality software delivery.
+        Badges: ['Java', 'NodeJs', 'AWS', 'React', 'Redux', 'K8S', 'Agile', 'Microservices']
+  - Employer: EPAM
+    Place: Remote
+    Positions:
+      - Title: Solution Architect
+        Date: 2020 - 2021
+        Details:
+          - Designed and implemented new features to improve software functionality and user experience.
+          - Conducted thorough code reviews to maintain code quality, reduce bugs, and increase maintainability.
+          - Troubleshot complex issues to identify root causes and implement effective solutions.
+          - Performed performance tuning to optimize software application performance.
+          - Led a team of 9 members, providing guidance, mentoring, and support to ensure project success.
+          - Created POCs to demonstrate the feasibility and value of new software features and functionality.
+          - Designed software architecture to ensure scalability, maintainability, and performance.
+          - Collaborated with cross-functional teams to ensure software design alignment with business needs.
+          - Implemented best practices for software development lifecycle to ensure high-quality software delivery.
+        Badges: ['Java', 'Tibco', 'AWS', 'Messaging', 'Microservices']
+  - Employer: Playtika
+    Place: Dnipro, Ukraine
+    Positions:
+      - Title: Senior Software Developer/Scrum Master
+        Date: 2018 - 2020
+        Details:
+          - Served as a Senior Developer and Scrum Master, responsible for leading and managing the development team.
+          - Designed, developed, and maintained highly scalable and fault-tolerant systems, ensuring the high performance and availability of Playtika's products.
+          - Collaborated with cross-functional teams, including product managers, designers, and other developers, to define and implement new features and enhancements.
+          - Identified and resolved complex technical issues and bugs in Playtika's products, working with the team to develop and implement effective solutions.
+          - Led architectural design discussions and provided technical guidance to the team on various software engineering best practices and principles.
+          - Implemented new features and enhancements across multiple projects, utilizing a variety of programming languages and frameworks, including Java, Python, and JavaScript.
+          - Ensured timely delivery of high-quality software by adhering to Agile methodologies and practices, and managing project timelines and sprints.
+          - Trained and mentored team members, ensuring their continuous growth and development.
+          - Worked with other senior developers to evaluate and introduce new technologies and tools to improve the team's efficiency and effectiveness.
+        Badges: ['Java', 'Microservice', 'Private cloud', 'Kafka']
+
+  - Employer: Luxoft, Privat Bank
+    Place: Dnipro, Ukraine
+    Positions:
+      - Title: Software Developer
+        Date: 2009 - 2018
+        Details:
+          - Ask in addition
+
+Skills:
+  - Family: Software Engineering
+    Items:
+      - Solution Architecture
+      - Distributed Systems
+      - System Design
+      - Microservices
+      - Cloud
+      - SQL/NoSQL
+      - DB Modeling
+      - Software Documentation
+  - Family: Programing
+    Items:
+      - Java
+      - NodeJS
+      - SQL
+      - TIBCO Business Works,  TIBCO Business Events
+  - Family: Frameworks
+    Items:
+      - Spring / Spring Boot / Spring Cloud
+      - J2EE
+      - AWS
+      - ORM
+      - Apache Camel
+  - Family: Messaging
+    Items:
+      - JMS
+      - Apache Kafka
+      - AWS (SNS, SQS, Kinesis)
+  - Family: Data Storages
+    Items:
+      - SQL (MySQL, PostgreSQL, Oracle)
+      - NoSql (MongoDb, Cassandra, Redis, DynamoDb)
+
+Languages:
+  - Name: Ukrainian
+    Level: Native
+  - Name: Russian
+    Level: Native
+  - Name: English
+    Level: Fluent
+
+Certifications:
+  - Badge: img/seal-csm.png
+    Confirmation: https://drive.google.com/file/d/1m3NyK62RF38OidbKDi2KUDlyWxix5PKV/view?usp=sharing
+  - Badge: img/AWS Certified Solutions Architect Professional.png
+    Confirmation: https://cp.certmetrics.com/amazon/en/public/verify/credential/56002d3b0c9e4247acf36d54f0ea90d9
+  - Badge: img/AWS Certified Developer.png
+    Confirmation: https://drive.google.com/file/d/1hlWaza1ggD72lPi3kwLA9LLB8p7aoLwg/view?usp=sharing
+  - Badge: img/general-electric.svg
+    Confirmation: https://drive.google.com/file/d/0B-U70qzuu0--MEFOSXVhZ0JzTEk/view?resourcekey=0-bbsnAOpMjQz0MpebnCbZkA
+  - Badge: img/mongoDB.png
+    Confirmation: https://university.mongodb.com/course_completion/2f2332cf-e680-4b9d-a40e-2a04512e

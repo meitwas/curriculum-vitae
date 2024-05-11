@@ -1,0 +1,29 @@
+.badge {
+    width: 100%;
+    height: $width-right-col - 14rem;
+    position: relative;
+    overflow: hidden;
+
+
+    &__container {
+        @include hz-center;
+        width: 70%;
+        height: $width-right-col - 14rem;
+        transition: all 0.3s cubic-bezier($cubic);
+        text-align: center;
+
+        &:hover {
+            width: 80%;
+        }
+    }
+
+    &__img {
+        object-fit: cover;
+        width: 70%;
+        transition: all 0.3s cubic-bezier($cubic);
+        @include all-center;
+        &:hover {
+            width: 70%;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+baseURL = "cv.it-was.me/curriculum-vitae"
+languageCode = "en-us"
+title = "Stanislav S - CV"
+theme = "almeida-cv"
+
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+enableEmoji = true
+
+disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
+
+#googleAnalytics = ""
+
+[params]
+enableMetaTags = true
+colorLight = "#fff"
+colorDark = "#666"
+colorPageBackground = "#ddd"
+colorPrimary = "#e3bfb8"
+colorSecondary = "#aaa"
+colorIconPrimary = "#fff"
+colorIconBackground = "#e3bfb8"
+colorRightColumnBackground = "#f5f5f5"
+colorRightColumnHeadingText = "#666"
+colorRightColumnBodyText = "#666"
+colorRightColumnIconPrimary = "#fff"
+colorRightColumnIconBackground = "#e3bfb8"
+pages = 2
+# Set this param to "true" to swap the bar positions
+swapColumns = true
+
