@@ -14,7 +14,7 @@ BasicInfo:
     - Icon: fa-brands fa-linkedin
       Info: <a class="contact__link" href="https://www.linkedin.com/in/stanislav-savosiuk-22001052/" target="_blank">Stanislav S</a>
 
-Profile: With over 15 years of experience as a seasoned software engineer and solution architect, I specialize in leading engineering teams and spearheading the creation of distributed projects from scratch. Throughout my career, I've demonstrated proficiency in designing and implementing cloud-based applications while meticulously crafting architectural blueprints. My track record speaks volumes, showcasing a consistent ability to deliver innovative solutions promptly, ultimately surpassing client and stakeholder expectations. Renowned for my robust analytical prowess and knack for problem-solving, I possess a sharp eye for detail, enabling me to swiftly identify and address challenges. Moreover, my adept communication and interpersonal skills have proven invaluable in fostering collaboration across cross-functional teams, facilitating the attainment of project objectives.
+Profile: With over than 15 years of commercial experience as a Software Engineer & Solution Architect I specialise in leading engineering teams and maintaining and creating of distributed projects from scratch. During my career I’ve demonstrated proficiency in designing and implementing cloud-based solutions and leading engineering team(s). Having analytical and problem solving skills helps me bring exceptional value for the company I work with. Moreover, my communication and interpersonal skills have proven in fostering collaboration across cross-functional teams, facilitating the attainment of project objectives.
 
 Education:
   - Course: MSc in Computer Science
@@ -47,7 +47,7 @@ Experience:
           - Performed performance tuning to optimize software application performance.
           - Collaborated with cross-functional teams to ensure software design alignment with business needs.
           - Implemented best practices for software development lifecycle to ensure high-quality software delivery.
-        Badges: ['Java', 'NodeJs', 'AWS', 'React', 'Redux', 'K8S', 'Agile', 'Microservices']
+        Badges: ['Java', 'NodeJs', 'AWS', 'React', 'Redux', 'K8S', 'Agile', 'Microservices', 'SQL', 'NoSQL']
   - Employer: EPAM
     Place: Remote
     Positions:
@@ -63,7 +63,7 @@ Experience:
           - Designed software architecture to ensure scalability, maintainability, and performance.
           - Collaborated with cross-functional teams to ensure software design alignment with business needs.
           - Implemented best practices for software development lifecycle to ensure high-quality software delivery.
-        Badges: ['Java', 'Tibco', 'AWS', 'Messaging', 'Microservices']
+        Badges: ['Java', 'Tibco', 'AWS', 'Messaging', 'Microservices', 'SQL']
   - Employer: Playtika
     Place: Dnipro, Ukraine
     Positions:
@@ -79,7 +79,7 @@ Experience:
           - Ensured timely delivery of high-quality software by adhering to Agile methodologies and practices, and managing project timelines and sprints.
           - Trained and mentored team members, ensuring their continuous growth and development.
           - Worked with other senior developers to evaluate and introduce new technologies and tools to improve the team's efficiency and effectiveness.
-        Badges: ['Java', 'Microservice', 'Private cloud', 'Kafka']
+        Badges: ['Java', 'Spring Boot', 'Microservice', 'Private cloud', 'Kafka', 'SQL', 'NoSQL']
 
   - Employer: Luxoft, Privat Bank
     Place: Dnipro, Ukraine
