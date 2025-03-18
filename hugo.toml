@@ -9,9 +9,9 @@ enableEmoji = true
 
 disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
-GoogleAnalytics = "G-QFE87FMVYP"
 
 [params]
+googleAnalytics = "G-QFE87FMVYP"
 enableMetaTags = true
 colorLight = "#fff"
 colorDark = "#666"
@@ -25,7 +25,7 @@ colorRightColumnHeadingText = "#666"
 colorRightColumnBodyText = "#666"
 colorRightColumnIconPrimary = "#fff"
 colorRightColumnIconBackground = "#8638c4"
-pages = 2
+pages = 3
 # Set this param to "true" to swap the bar positions
 swapColumns = true
 

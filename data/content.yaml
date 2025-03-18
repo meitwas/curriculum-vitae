@@ -14,7 +14,42 @@ BasicInfo:
     - Icon: fa-brands fa-linkedin
       Info: <a class="contact__link" href="https://www.linkedin.com/in/stanislav-savosiuk-22001052/" target="_blank">Stanislav S</a>
 
-Profile: With over than 15 years of commercial experience as a Software Engineer & Solution Architect I specialise in leading engineering teams and maintaining and creating of distributed projects from scratch. During my career I’ve demonstrated proficiency in designing and implementing cloud-based solutions and leading engineering team(s). Having analytical and problem solving skills helps me bring exceptional value for the company I work with. Moreover, my communication and interpersonal skills have proven in fostering collaboration across cross-functional teams, facilitating the attainment of project objectives.
+Profile: <div class="profile">
+  <div class="profile-container">
+  <p class="profile-paragraph">
+  Solution Architect and Software Engineer with <strong>15+ years</strong> of commercial experience leading engineering teams and delivering distributed projects.
+  Certified <strong>AWS Solutions Architect – Professional</strong>, <strong>AWS Certified Developer</strong>, and <strong>Certified Scrum Master</strong> (Scrum Alliance).
+  Skilled in designing high-load systems and leveraging <em>observability, performance, reliability, and scalability</em> as core architectural pillars.
+  </p>
+  
+  <p class="profile-paragraph">
+  Proven expertise in <strong>presales and requirements gathering</strong>, translating business objectives into robust technical strategies.
+  Adept at forming and managing project teams, defining <strong>Software Development Life Cycle (SDLC)</strong> processes, and implementing
+  <strong>Continuous Integration/Continuous Delivery (CI/CD)</strong> pipelines.
+  Experienced in analyzing and optimizing existing architectures, planning effective <strong>cloud migrations</strong>, and creating comprehensive documentation,
+  including <strong>Work Breakdown Structures (WBS)</strong>. Recognized for effective collaboration with C-level executives and technical teams to
+  ensure alignment with strategic goals and timely delivery.
+  </p>
+  
+  <h3 class="profile-heading">Areas of Focus</h3>
+  
+  <ul class="profile-list">
+  <li><strong>Cloud Architecture:</strong> Distributed & High-Load Systems</li>
+  <li><strong>Key Architectural Principles:</strong> Maintainability, Observability, Performance, Reliability & Scalability</li>
+  <li><strong>Presales & Requirements Analysis</strong></li>
+  <li><strong>Adept and advocate of Best Practices & Methodologies:</strong> SOLID, OOP, KISS, DRY, YAGNI, SoC, LoD, Composition Over Inheritance, Single Level of Abstraction, POLA, CQRS, Twelve-Factor App, Fail Fast</li>
+  <li><strong>Project Team Formation & Leadership</strong></li>
+  <li><strong>SDLC & CI/CD Implementation</strong></li>
+  <li><strong>Detailed Planning:</strong> WBS, DoD/DoR</li>
+  <li><strong>Cross-Functional Collaboration</strong></li>
+  </ul>
+  
+  <p class="profile-paragraph">
+  Dedicated to implementing <strong>cloud-based solutions</strong> that meet and exceed project objectives through <em>continuous improvement</em>,
+  <em>transparent communication</em>, and <em>strategic alignment</em> with business goals.
+  </p>
+  </div>
+  </div>
 
 Education:
   - Course: MSc in Computer Science
@@ -22,48 +57,52 @@ Education:
     Date: 2005 - 2010
     Details: Technical Cybernetics
 
-References:
-  - Name: Fabien Ribourg
-    Relation: Global Analytics & Services Oriented Solution Design Leader
-    Contacts:
-      - Icon: fa-brands fa-linkedin
-        Info: <a class="contact__link" href="https://fr.linkedin.com/in/fabien-ribourg-72802925" target="_blank">Fabien Ribourg</a>
-      - Icon: fa-solid fa-pen-nib
-        Info: <a class="contact__link" href="https://docs.google.com/document/d/0B-U70qzuu0--QXZld1FFVWpWVDA/edit" target="_blank">Recommendation letter</a>
+#References:
+#  - Name: Fabien Ribourg
+#    Relation: Global Analytics & Services Oriented Solution Design Leader
+#    Contacts:
+#      - Icon: fa-brands fa-linkedin
+#        Info: <a class="contact__link" href="https://fr.linkedin.com/in/fabien-ribourg-72802925" target="_blank">Fabien Ribourg</a>
+#      - Icon: fa-solid fa-pen-nib
+#        Info: <a class="contact__link" href="https://docs.google.com/document/d/0B-U70qzuu0--QXZld1FFVWpWVDA/edit" target="_blank">Recommendation letter</a>
 
 Experience:
   - Employer: Xenoss
     Place: Remote
     Positions:
-      - Title: Lead software engineer
+      - Title: Lead software engineer/Solution Architect
         Date: 2021 - Present
         Details:
-          - We build an innovative advertising solution for retail stores. The solution moves the long-existing promotion technique of the product discounts into online advertising. The product buyers will be seeing the active product discounts that are available in store they usually shop at right on the internet advertising placements replacing the paper flyers in their mailboxes. The system will provide the platform for advertisers to configure promotion campaigns, optimize them to bring more buyers to stores, and provide analytics of the campaign performance.
-          - Developed a proprietary algorithm for data modeling and forecasting, resulting in accurate predictions and better business decisions.
-          - Integrated an automated data model testing mechanism, reducing manual effort and increasing testing efficiency.
-          - Persuaded business stakeholders to switch to a more advanced prediction algorithm model, resulting in increased accuracy and better outcomes.
-          - Designed software architecture to ensure scalability, maintainability, and performance.
-          - Troubleshot complex issues to identify root causes and implement effective solutions.
-          - Performed performance tuning to optimize software application performance.
-          - Collaborated with cross-functional teams to ensure software design alignment with business needs.
-          - Implemented best practices for software development lifecycle to ensure high-quality software delivery.
-        Badges: ['Java', 'NodeJs', 'AWS', 'React', 'Redux', 'K8S', 'Agile', 'Microservices', 'SQL', 'NoSQL']
+          - Conducted presales activities, translating customer requirements into clearly defined technical solutions aligned with strategic business objectives.
+          - Engaged directly with customers to gather detailed requirements, ensuring technical solutions effectively addressed their business needs.
+          - Delivered technical presentations and demonstrations, effectively communicating solution value and facilitating informed customer decisions.
+          - Maintained consistent collaboration and transparent communication with customers, fostering strong partnerships and ensuring satisfaction throughout the project lifecycle.
+          - Actively participated in presales discussions, providing expert guidance to shape solutions that meet customer expectations and business goals.
+          - Develop proprietary algorithms for advanced data modeling and forecasting to enhance prediction accuracy in high-load environments.
+          - Integrate automated data model testing mechanisms to significantly reduce manual effort and improve testing efficiency in scalable solutions.
+          - Influence stakeholders to adopt sophisticated predictive algorithms, resulting in superior accuracy and optimized business outcomes in high-load scenarios.
+          - Architect scalable, high-performance software systems, emphasizing maintainability and reliability for high-load demands.
+          - Lead teams in troubleshooting complex, high-load system issues, swiftly identifying root causes and implementing effective solutions.
+          - Perform targeted performance tuning, optimizing software applications to meet demanding high-load performance standards.
+          - Collaborate closely with cross-functional teams and executive stakeholders, aligning software architecture and solution designs with strategic business objectives and high-load operational needs.
+          - Establish best practices for the Software Development Life Cycle (SDLC), including Continuous Integration/Continuous Delivery (CI/CD) pipelines, ensuring consistent high-quality delivery for high-load systems.
+          - Expertly analyze existing system architectures, plan and execute efficient cloud migrations, and create detailed documentation, including Work Breakdown Structures (WBS), tailored for high-load environments.
+        Badges: [ 'Java', 'NodeJs', 'AWS', "System Design", 'K8S', 'Agile', 'Microservices', 'SQL', 'NoSQL' ]
   - Employer: EPAM
     Place: Remote
     Positions:
       - Title: Solution Architect
         Date: 2020 - 2021
         Details:
-          - Designed and implemented new features to improve software functionality and user experience.
-          - Conducted thorough code reviews to maintain code quality, reduce bugs, and increase maintainability.
-          - Troubleshot complex issues to identify root causes and implement effective solutions.
-          - Performed performance tuning to optimize software application performance.
-          - Led a team of 9 members, providing guidance, mentoring, and support to ensure project success.
-          - Created POCs to demonstrate the feasibility and value of new software features and functionality.
-          - Designed software architecture to ensure scalability, maintainability, and performance.
-          - Collaborated with cross-functional teams to ensure software design alignment with business needs.
-          - Implemented best practices for software development lifecycle to ensure high-quality software delivery.
-        Badges: ['Java', 'Tibco', 'AWS', 'Messaging', 'Microservices', 'SQL']
+          - Designed and implemented innovative features to enhance software functionality and user experience in high-load environments.
+          - Conducted comprehensive code reviews to maintain high code quality, minimize bugs, and ensure optimal maintainability.
+          - Led troubleshooting efforts for complex issues, rapidly identifying root causes and applying effective, scalable solutions.
+          - Performed detailed performance tuning to optimize software applications for demanding high-load conditions.
+          - Successfully led several dedicated teams totaling 9 members, providing mentorship, strategic guidance, and proactive support to achieve project objectives.
+          - Developed Proof of Concepts (POCs) demonstrating feasibility and value of proposed software features in high-load scenarios.
+          - Architected scalable software solutions prioritizing performance, maintainability, and adaptability to high-load requirements.
+          - Collaborated closely with cross-functional teams, aligning software designs and solutions with critical business needs.
+        Badges: [ 'Java', 'Tibco', 'AWS', 'Messaging', 'Event Driven', 'System Design', 'Microservices', 'SQL' ]
   - Employer: Playtika
     Place: Dnipro, Ukraine
     Positions:
@@ -79,7 +118,7 @@ Experience:
           - Ensured timely delivery of high-quality software by adhering to Agile methodologies and practices, and managing project timelines and sprints.
           - Trained and mentored team members, ensuring their continuous growth and development.
           - Worked with other senior developers to evaluate and introduce new technologies and tools to improve the team's efficiency and effectiveness.
-        Badges: ['Java', 'Spring Boot', 'Microservice', 'Private cloud', 'Kafka', 'SQL', 'NoSQL']
+        Badges: [ 'Java', 'Spring Boot', 'Microservice', 'Private cloud', 'Kafka', 'SQL', 'NoSQL' ]
 
   - Employer: Luxoft, Privat Bank
     Place: Dnipro, Ukraine
