@@ -9,9 +9,9 @@ enableEmoji = true
 
 disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
+GoogleAnalytics = "G-QFE87FMVYP"
 
 [params]
-googleAnalytics = "G-QFE87FMVYP"
 enableMetaTags = true
 colorLight = "#fff"
 colorDark = "#666"
