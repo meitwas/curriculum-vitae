@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Params.seo_title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ .Params.description }}">
+  <meta property="og:title" content="{{ .Params.og_title }}">
+  <meta property="og:description" content="{{ .Params.og_description }}">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="{{ .Params.canonical_url }}">
+  <link rel="canonical" href="{{ .Params.canonical_url }}">
+
+  {{ with site.Config.Services.GoogleAnalytics.ID }}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ . }}');
+  </script>
+  {{ end }}
+
+  <style>
+    body {font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f7f7f7}
+    .container {max-width: 900px; margin: 0 auto; padding: 20px}
+    .section {margin-bottom: 8px; background: #ffffff; padding: 14px; border-radius: 8px}
+    h1 {font-size: 28px; margin-bottom: 4px}
+    h2 {font-size: 20px; margin-bottom: 6px}
+    h3 {margin-bottom: 4px; font-size: 16px}
+    ul {margin: 6px 0 0 18px}
+    header {text-align: center; margin-bottom: 14px}
+    .contact {font-size: 14px}
+    @media (max-width: 600px){.container{padding:12px}}
+
+    @media print {
+      body {background: #fff}
+      .container {max-width: 100%; padding: 0}
+      .section {background: #fff; border-radius: 0; margin-bottom: 6px; padding: 10px 0; box-shadow: none}
+      h1 {font-size: 22px}
+      h2 {font-size: 16px}
+      h3 {font-size: 13px}
+      a {color: #000; text-decoration: none}
+      ul {margin: 4px 0 0 16px}
+    }
+  </style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Person",
+ "name": "{{ .Params.name }}",
+ "jobTitle": "{{ .Params.job_title }}",
+ "url": "{{ .Params.canonical_url }}",
+ "sameAs": [
+   "{{ .Params.linkedin }}",
+   "{{ .Params.github }}"
+ ],
+ "knowsAbout": {{ jsonify .Params.knows_about }}
+}
+</script>
+</head>
+
+<body>
+<div class="container">
+
+  <header>
+    <h1>{{ .Params.name }}</h1>
+    <div class="contact">
+      {{ .Params.headline }}<br>
+      {{ .Params.location }}<br>
+      <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a><br>
+      <a href="{{ .Params.linkedin }}" target="_blank" rel="noopener noreferrer">{{ .Params.linkedin }}</a> |
+      <a href="{{ .Params.github }}" target="_blank" rel="noopener noreferrer">{{ .Params.github }}</a>
+    </div>
+  </header>
+
+  <div class="section">
+    <h2>Summary</h2>
+    <p>{{ .Params.summary }}</p>
+  </div>
+
+  <div class="section">
+    <h2>Work Experience</h2>
+
+    {{ range .Params.experience }}
+    <h3>{{ .company }} | {{ .title }} | {{ .location }} | {{ .dates }}</h3>
+    <ul>
+      {{ range .bullets }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+    {{ end }}
+
+  </div>
+
+  <div class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Programming Languages:</strong> {{ delimit .Params.skills.programming_languages ", " }}</li>
+      <li><strong>Frameworks:</strong> {{ delimit .Params.skills.frameworks ", " }}</li>
+      <li><strong>Cloud & Containers:</strong> {{ delimit .Params.skills.cloud_containers ", " }}</li>
+      <li><strong>Data & Streaming:</strong> {{ delimit .Params.skills.data_streaming ", " }}</li>
+      <li><strong>Architecture:</strong> {{ delimit .Params.skills.architecture ", " }}</li>
+      <li><strong>DevOps & CI/CD:</strong> {{ delimit .Params.skills.devops ", " }}</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Education</h2>
+    <p>{{ .Params.education.degree }}, {{ .Params.education.institution }}</p>
+  </div>
+
+  <div class="section">
+    <h2>Certifications</h2>
+    <ul>
+      {{ range .Params.certifications }}
+      {{ if .url }}
+      <li><a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a></li>
+      {{ else }}
+      <li>{{ .name }}</li>
+      {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Languages</h2>
+    <ul>
+      {{ range .Params.languages.list }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  </div>
+
+</div>
+</body></html>
