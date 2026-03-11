@@ -1,0 +1,6 @@
+baseURL = "https://cv.it-was.me/"
+languageCode = "en"
+title = "Stanislav Savosiuk – Resume"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableKinds = ["page", "section", "taxonomy", "term", "RSS"]
